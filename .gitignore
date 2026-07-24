@@ -1,0 +1,120 @@
+# Python bytecode and interpreter artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python packaging artifacts
+.eggs/
+*.egg
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.direnv/
+.envrc.local
+.venv/
+env/
+venv/
+
+# Test, type-checking, linting, and analysis caches
+.coverage
+.coverage.*
+.hypothesis/
+.mypy_cache/
+.nox/
+.pytest_cache/
+.pytype/
+.ruff_cache/
+.tox/
+coverage.xml
+htmlcov/
+
+# Documentation build output
+docs/site/
+site/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.secrets/
+configs/local/
+configs/overrides.local.yaml
+
+# Logs, process state, and crash diagnostics
+*.log
+*.pid
+*.pid.lock
+*.prof
+*.trace
+logs/
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*.tmp
+*~
+.cache/
+temp/
+tmp/
+
+# Docker runtime state and local volumes
+docker/volumes/
+docker/runtime/
+
+# Downloaded datasets and preprocessing workspaces
+datasets/cache/
+datasets/downloads/
+datasets/work/
+
+# Generated experiment and evaluation artifacts
+experiments/runs/
+figures/generated/
+reports/coverage-html/
+reports/coverage.xml
+reports/generated/
+statistics/generated/
+
+# Paper compilation artifacts
+paper/build/
+paper/*.acn
+paper/*.acr
+paper/*.alg
+paper/*.aux
+paper/*.bbl
+paper/*.bcf
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.glg
+paper/*.glo
+paper/*.gls
+paper/*.ist
+paper/*.lof
+paper/*.log
+paper/*.lot
+paper/*.out
+paper/*.run.xml
+paper/*.synctex.gz
+paper/*.toc
+
+# IDE and editor metadata
+.idea/
+.project
+.pydevproject
+.settings/
+.vscode/
+
+# Operating-system metadata
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
