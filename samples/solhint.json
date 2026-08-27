@@ -1,0 +1,1 @@
+{"tool":"solhint","messages":[{"ruleId":"unchecked-send","severity":2,"filePath":"contracts/Payment.sol","line":23,"message":"Check the success value of low-level calls."},{"ruleId":"tx-origin","severity":2,"filePath":"contracts/Access.sol","line":9,"message":"Avoid authorization through tx.origin."}]}
